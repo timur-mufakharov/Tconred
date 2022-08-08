@@ -1,7 +1,8 @@
 # Tconred
 Tconred is the software optimised for visualised data reduction of the Tianma 65-m telescope continuum observations in a cross-scan mode.
-It is written in python language with the PyQt4 toolkit. It is tested in Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, and Mac OS El Capitan.
+It is written in python language with the PyQt4 toolkit and tested in Ubuntu 14.04 LTS, Ubuntu 16.04 LTS, and Mac OS El Capitan (2017-2019).
 CalibratorsPlots - program to analyse data collected using previous program Tconred. It helps to control the observations quality along with calculation of some parameters. Copy .py files into your folder with FITS files and follow instructions below. 
+In case of any questions/suggestions please contact me by email.
 
 ##
 Usage of Tconred:
