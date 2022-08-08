@@ -35,22 +35,8 @@ Description of the available tools in the CalibratorsPlots.py:
 
 4) Plot the system temperature against time (in MJD) or against elevation 
 
-Note! it works with numpy version 1.11.2. Unfortunately when using later version of numpy, points in the graphics are disappear and it gives an error message. This error rises from the pyqtgraph package and already been asked by other user in stackoverflow: https://stackoverflow.com/questions/45345527/pyqtgraph-gives-typeerror-with-symbols-python-2-7-13
+Note: it works with numpy version 1.11.2. Unfortunately when using later version of numpy, points in the graphics are disappear and it gives an error message. This error rises from the pyqtgraph package and already been asked by other user in stackoverflow: https://stackoverflow.com/questions/45345527/pyqtgraph-gives-typeerror-with-symbols-python-2-7-13
 
 ###
 Requirements:
-Python 2.7
-
-import os 
-from os.path import isfile, join
-from fnmatch import fnmatch
-import matplotlib.pyplot as plt
-import numpy as np
-import scipy.stats as stats
-from scipy import optimize
-from scipy.interpolate import interp1d
-from scipy.optimize import curve_fit
-from astropy.io import fits
-from astropy.modeling import models, fitting
-from astropy.table import Table, Column
-
+Python 2.7, scipy, numpy, astropy, matplotlib
